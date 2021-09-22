@@ -9,7 +9,7 @@ if [ "$ART_ID" == "" ]; then
     printf "ART ID: Number that uniquely identifies the artwork\n"
     printf "        https://www.pixiv.net//member_illust.php?mode=medium&illust_id=<art id>\n"
     printf "DELAY:  Delay count for imagemagick's convert command\n\n"
-    printf "Run './ugoke setup' to install necessary packages\n"
+    printf "Run './ugoke.sh setup' to install necessary packages\n"
     exit
 fi
 
