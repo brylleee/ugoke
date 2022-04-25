@@ -25,8 +25,8 @@ fi
 if [ "$ART_ID" == "setup" ]; then
     # Download necessary packages
     printf "\033[1;33mDownloading jq and imagemagick...\n"
-    apt install jq > /dev/null & spinner          # For parsing JSON
-    apt install imagemagick > /dev/null & spinner # Converting PNGs to GIF
+    apt install jq > /dev/null          # For parsing JSON
+    apt install imagemagick > /dev/null # Converting PNGs to GIF
     printf "\033[1;33mDone!\033[0;30m\n"
     exit
 fi
